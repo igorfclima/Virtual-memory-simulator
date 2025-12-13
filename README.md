@@ -1,19 +1,19 @@
 # Simulador de Gerenciamento de Memória Virtual
 
-Este projeto consiste na implementação de um simulador de sistema de gerenciamento de **Memória Virtual** utilizando **Paginação por Demanda**. [cite_start]O objetivo é simular e comparar o desempenho de diferentes políticas de substituição de páginas, contabilizando o número de *Page Faults* (falhas de página), o tempo de execução e o estado final do Swap[cite: 4, 5].
+Este projeto consiste na implementação de um simulador de sistema de gerenciamento de **Memória Virtual** utilizando **Paginação por Demanda**. O objetivo é simular e comparar o desempenho de diferentes políticas de substituição de páginas, contabilizando o número de *Page Faults* (falhas de página), o tempo de execução e o estado final do Swap.
 
-Trabalho desenvolvido para a disciplina de **Sistemas Operacionais** da Pontifícia Universidade Católica de Minas Gerais (PUC Minas)[cite: 1].
+Trabalho desenvolvido para a disciplina de **Sistemas Operacionais** da Pontifícia Universidade Católica de Minas Gerais (PUC Minas).
 
 ## 📋 Funcionalidades
 
-**Simulação de Hardware:** Configuração flexível de Memória Física (RAM), Memória Virtual e Tamanho de Página [cite: 20-24].
-**Cálculo Automático:** Determinação automática do Tamanho da Página ($S_P$), Número de Frames e Tamanho Mínimo de Swap [cite: 33-36].
-**Políticas de Substituição:** Implementação dos 4 algoritmos exigidos [cite: 40-44]:
+**Simulação de Hardware:** Configuração flexível de Memória Física (RAM), Memória Virtual e Tamanho de Página.
+**Cálculo Automático:** Determinação automática do Tamanho da Página ($S_P$), Número de Frames e Tamanho Mínimo de Swap.
+**Políticas de Substituição:** Implementação dos 4 algoritmos exigidos:
     1.  **FIFO** (First-In, First-Out)
     2.  **RAND** (Aleatório)
     3.  **LRU** (Least Recently Used)
     4.  **MIN/OPT** (Algoritmo Ótimo)
-**Saída Padronizada:** Formatação estrita conforme especificação para correção automática [cite: 46-51].
+**Saída Padronizada:** Formatação estrita conforme especificação para correção automática.
 
 ## 🚀 Estrutura do Projeto (Modularização)
 
@@ -72,3 +72,4 @@ java -cp bin Main < entradas/teste.txt
 ```
 
 **Nota:** Certifique-se de estar na raiz do projeto ao executar os comandos.
+
